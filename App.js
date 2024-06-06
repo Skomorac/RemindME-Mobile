@@ -1,9 +1,9 @@
 import "react-native-gesture-handler";
 import React from "react";
-import TabNavigator from "./navigation/TabNavigator";
+import StackNavigator from "./navigation/StackNavigator";
 
 const App = () => {
-  return <TabNavigator />;
+  return <StackNavigator />;
 };
 
 export default App;
